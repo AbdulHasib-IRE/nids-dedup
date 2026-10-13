@@ -1,0 +1,54 @@
+{
+  "rows": 73370443,
+  "shards": 75,
+  "files": 75,
+  "skipped_files": [],
+  "rowhash": {
+    "rows": 73370443,
+    "unique": 33910658,
+    "dup_rows": 52343303,
+    "dup_pct": 71.34112983343988,
+    "redund_pct": 53.781582046601514,
+    "incons_rows": 3762337,
+    "incons_pct": 5.127864636172362,
+    "max_mult": 2013398,
+    "irreducible": 940393,
+    "ceiling_acc_pct": 98.71829450450504,
+    "dup_groups": 12883518,
+    "grp_cross_class": 45315,
+    "grp_cross_source": 211010,
+    "grp_within_source": 12672508,
+    "mean_group_size": 4.062811337710709
+  },
+  "rowhash_port": {
+    "rows": 73370443,
+    "unique": 35405427,
+    "dup_rows": 50859149,
+    "dup_pct": 69.31830710085804,
+    "redund_pct": 51.74429163525699,
+    "incons_rows": 3628039,
+    "incons_pct": 4.9448236260478895,
+    "max_mult": 1913779,
+    "irreducible": 905831,
+    "ceiling_acc_pct": 98.76540066685982,
+    "dup_groups": 12894133,
+    "grp_cross_class": 37095,
+    "grp_cross_source": 160282,
+    "grp_within_source": 12733851,
+    "mean_group_size": 3.944363610953912
+  },
+  "classes": {
+    "DDoS": 38532480,
+    "DoS": 33005194,
+    "Reconnaissance": 1821639,
+    "Normal": 9543,
+    "Theft": 1587
+  },
+  "per_class_dup_pct": {
+    "DoS": 69.24694943468594,
+    "Normal": 23.273603688567537,
+    "Reconnaissance": 96.62359007465255,
+    "Theft": 68.80907372400756,
+    "DDoS": 71.95168076386467
+  }
+}
