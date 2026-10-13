@@ -1,0 +1,142 @@
+{
+ "seed": 789,
+ "n_nat": 110000,
+ "n_twin_rows": 1053,
+ "n_twin_conf": 0,
+ "shortfall": 0,
+ "n_arm": {
+  "NAT": 110000,
+  "PLACEBO": 110000,
+  "DED": 110000,
+  "DED_CONS": 110000,
+  "DED_CONF": 110000
+ },
+ "uniq_arm": {
+  "NAT": 105003,
+  "PLACEBO": 104995,
+  "DED": 104880,
+  "DED_CONS": 104880,
+  "DED_CONF": 105003
+ },
+ "cat_counts": {
+  "cons": 972,
+  "conf": 0,
+  "none": 10028
+ },
+ "res": {
+  "NAT": {
+   "1-NN": {
+    "f1": 99.590762757954,
+    "acc_cons": 100.0,
+    "acc_conf": NaN,
+    "acc_none": 99.55125648185081
+   },
+   "RandomForest": {
+    "f1": 99.79089436974346,
+    "acc_cons": 100.0,
+    "acc_conf": NaN,
+    "acc_none": 99.77064220183486
+   },
+   "LightGBM": {
+    "f1": 99.79089390228957,
+    "acc_cons": 100.0,
+    "acc_conf": NaN,
+    "acc_none": 99.77064220183486
+   },
+   "MLP-ES": {
+    "f1": 87.79040229419297,
+    "acc_cons": 91.8724279835391,
+    "acc_conf": NaN,
+    "acc_none": 90.71599521340248
+   },
+   "MLP-noES": {
+    "f1": 87.62474447334043,
+    "acc_cons": 88.68312757201646,
+    "acc_conf": NaN,
+    "acc_none": 90.8356601515756
+   },
+   "LogReg": {
+    "f1": 81.16718362020336,
+    "acc_cons": 79.52674897119341,
+    "acc_conf": NaN,
+    "acc_none": 84.72277622656563
+   }
+  },
+  "PLACEBO": {
+   "1-NN": {
+    "f1": 99.590762757954,
+    "acc_cons": 100.0,
+    "acc_conf": NaN,
+    "acc_none": 99.55125648185081
+   },
+   "RandomForest": {
+    "f1": 99.79089436974346,
+    "acc_cons": 100.0,
+    "acc_conf": NaN,
+    "acc_none": 99.77064220183486
+   },
+   "LightGBM": {
+    "f1": 99.78179934579835,
+    "acc_cons": 100.0,
+    "acc_conf": NaN,
+    "acc_none": 99.76067012365377
+   },
+   "MLP-ES": {
+    "f1": 87.7515193991467,
+    "acc_cons": 91.8724279835391,
+    "acc_conf": NaN,
+    "acc_none": 90.67610690067809
+   },
+   "MLP-noES": {
+    "f1": 87.641372630601,
+    "acc_cons": 88.88888888888889,
+    "acc_conf": NaN,
+    "acc_none": 90.82568807339449
+   },
+   "LogReg": {
+    "f1": 81.17791660024093,
+    "acc_cons": 79.62962962962963,
+    "acc_conf": NaN,
+    "acc_none": 84.72277622656563
+   }
+  },
+  "DED": {
+   "1-NN": {
+    "f1": 99.58167221761944,
+    "acc_cons": 99.8971193415638,
+    "acc_conf": NaN,
+    "acc_none": 99.55125648185081
+   },
+   "RandomForest": {
+    "f1": 99.79089436974346,
+    "acc_cons": 100.0,
+    "acc_conf": NaN,
+    "acc_none": 99.77064220183486
+   },
+   "LightGBM": {
+    "f1": 99.78180299775093,
+    "acc_cons": 100.0,
+    "acc_conf": NaN,
+    "acc_none": 99.76067012365377
+   },
+   "MLP-ES": {
+    "f1": 87.72930826691616,
+    "acc_cons": 91.66666666666666,
+    "acc_conf": NaN,
+    "acc_none": 90.66613482249701
+   },
+   "MLP-noES": {
+    "f1": 87.54033348467203,
+    "acc_cons": 91.2551440329218,
+    "acc_conf": NaN,
+    "acc_none": 90.49660949341842
+   },
+   "LogReg": {
+    "f1": 81.16391597854341,
+    "acc_cons": 79.52674897119341,
+    "acc_conf": NaN,
+    "acc_none": 84.72277622656563
+   }
+  }
+ }
+}
