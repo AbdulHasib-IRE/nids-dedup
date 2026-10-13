@@ -1,7 +1,7 @@
 # Exact duplicates in IoT and enterprise intrusion detection benchmarks
 
-Code, results and audit tool for the paper "When Do Exact Duplicates Inflate Intrusion Detection Scores?
-A Full-Release Audit and Controlled Experiments on IoT and Enterprise Benchmarks"
+Code, results and audit tool for the paper "Exact Duplicates Inflate Intrusion Detection Scores for Some Learners and
+Benchmarks but Not Others: Evidence from Seven IoT and Enterprise Datasets"
 (A. Hasib, S. C. Das, Md. Ashiqussalehin; University of Frontier Technology, Bangladesh).
 
 ## Contents
