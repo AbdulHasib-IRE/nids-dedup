@@ -1,0 +1,72 @@
+{
+ "seed": 1011,
+ "n_classes_kept": 6,
+ "n_classes_all": 8,
+ "test_sources": [
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood2",
+  "Mirai__Mirai-greeth_flood19",
+  "DOS__DOS_SYN_FLOOD__DoS-SYN_Flood6",
+  "Web-Based__Sqlinjection__SqlInjection",
+  "Mirai__Mirai-greeth_flood15",
+  "Mirai__Mirai-greeth_flood12",
+  "DDOS__DDOS_ACK_Fragmentation__DDoS-ACK_Fragmentation12",
+  "Mirai__Mirai-greeth_flood8",
+  "Mirai__Mirai-greeth_flood22",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood",
+  "Benign__BenignTraffic3",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation14",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood19",
+  "Mirai__Mirai-greeth_flood23",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood15",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation17",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood12",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation6",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation5",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation9",
+  "DOS__DOS_UDP_FLOOD__DoS-UDP_Flood7",
+  "DDOS__DDOS_ACK_Fragmentation__DDoS-ACK_Fragmentation3",
+  "Spoofing__ARP_Spoofing__MITM-ArpSpoofing",
+  "DDOS__DDOS_HTTP_FLOOD__DDoS-HTTP_Flood-",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation3",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation19",
+  "DOS__DOS_SYN_FLOOD__DoS-SYN_Flood1",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation",
+  "DDOS__DDOS_ACK_Fragmentation__DDoS-ACK_Fragmentation2",
+  "DDOS__DDOS_ACK_Fragmentation__DDoS-ACK_Fragmentation11",
+  "Mirai__Mirai-greeth_flood14",
+  "Mirai__Mirai-greeth_flood2",
+  "Mirai__Mirai-greeth_flood16",
+  "Mirai__Mirai-greeth_flood9",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation7",
+  "Mirai__Mirai-greeth_flood27",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation1",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood26",
+  "DOS__DOS_SYN_FLOOD__DoS-SYN_Flood5"
+ ],
+ "res": {
+  "RAND_NAT": {
+   "1-NN": 73.7358217220058,
+   "LightGBM": 79.0208946439556,
+   "LogReg": 51.76202304172636
+  },
+  "RAND_DED": {
+   "1-NN": 73.5801695175442,
+   "LightGBM": 78.77869988609575,
+   "LogReg": 51.602202305416
+  },
+  "SRC_NAT": {
+   "1-NN": 47.611082469416495,
+   "LightGBM": 51.79925713478407,
+   "LogReg": 39.016168222378234
+  },
+  "SRC_DED": {
+   "1-NN": 47.40410932947911,
+   "LightGBM": 51.97603536845755,
+   "LogReg": 39.169083243770395
+  }
+ },
+ "rand_twin_pct": 1.4500000000000002,
+ "rand_n_train": 57894,
+ "src_twin_pct": 0.95,
+ "src_n_train": 54719
+}

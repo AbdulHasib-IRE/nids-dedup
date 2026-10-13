@@ -1,0 +1,69 @@
+{
+ "seed": 456,
+ "n_classes_kept": 6,
+ "n_classes_all": 8,
+ "test_sources": [
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood7",
+  "Recon__VulnerabilityScan",
+  "Mirai__Mirai-greeth_flood13",
+  "DOS__DOS_UDP_FLOOD__DoS-UDP_Flood12",
+  "DDOS__DDOS_ACK_Fragmentation__DDoS-ACK_Fragmentation1",
+  "Mirai__Mirai-greeth_flood10",
+  "Benign__BenignTraffic1",
+  "DOS__DOS_UDP_FLOOD__DoS-UDP_Flood15",
+  "Brute_Force__DictionaryBruteForce",
+  "Benign__BenignTraffic",
+  "Spoofing__ARP_Spoofing__MITM-ArpSpoofing",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood9",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation8",
+  "DDOS__DDOS_ACK_Fragmentation__DDoS-ACK_Fragmentation9",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation13",
+  "Mirai__Mirai-greeth_flood25",
+  "Mirai__Mirai-greeth_flood8",
+  "DOS__DOS_SYN_FLOOD__DoS-SYN_Flood5",
+  "Mirai__Mirai-greeth_flood12",
+  "DDOS__DDOS_ACK_Fragmentation__DDoS-ACK_Fragmentation7",
+  "Mirai__Mirai-greeth_flood5",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation14",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood16",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood8",
+  "DDOS__DDOS_ACK_Fragmentation__DDoS-ACK_Fragmentation12",
+  "Spoofing__ARP_Spoofing__MITM-ArpSpoofing1",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood23",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation1",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood22",
+  "Web-Based__Uploading_Attack__Uploading_Attack",
+  "Benign__BenignTraffic3",
+  "DDOS__DDOS_HTTP_FLOOD__DDoS-HTTP_Flood-",
+  "DOS__DOS_SYN_FLOOD__DoS-SYN_Flood7",
+  "DDOS__DDOS_ACK_Fragmentation__DDoS-ACK_Fragmentation6",
+  "DOS__DOS_SYN_FLOOD__DoS-SYN_Flood6"
+ ],
+ "res": {
+  "RAND_NAT": {
+   "1-NN": 72.94148771488929,
+   "LightGBM": 78.72109099650811,
+   "LogReg": 50.89827294426149
+  },
+  "RAND_DED": {
+   "1-NN": 72.86901898619071,
+   "LightGBM": 78.53674973354225,
+   "LogReg": 51.08356428528472
+  },
+  "SRC_NAT": {
+   "1-NN": 52.69072621997959,
+   "LightGBM": 58.14650672652849,
+   "LogReg": 45.090540842273356
+  },
+  "SRC_DED": {
+   "1-NN": 52.62530210434806,
+   "LightGBM": 58.510692596459755,
+   "LogReg": 45.21542016865415
+  }
+ },
+ "rand_twin_pct": 1.5833333333333335,
+ "rand_n_train": 57965,
+ "src_twin_pct": 0.8500000000000001,
+ "src_n_train": 59944
+}

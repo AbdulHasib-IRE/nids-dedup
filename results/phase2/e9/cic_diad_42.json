@@ -1,0 +1,75 @@
+{
+ "seed": 42,
+ "n_classes_kept": 6,
+ "n_classes_all": 8,
+ "test_sources": [
+  "Spoofing__ARP_Spoofing__MITM-ArpSpoofing1",
+  "Mirai__Mirai-greeth_flood2",
+  "Mirai__Mirai-greeth_flood25",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation9",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood",
+  "DDOS__DDOS_ACK_Fragmentation__DDoS-ACK_Fragmentation10",
+  "DOS__DOS_UDP_FLOOD__DoS-UDP_Flood11",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood7",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood5",
+  "Mirai__Mirai-greeth_flood6",
+  "DDOS__DDOS_ACK_Fragmentation__DDoS-ACK_Fragmentation5",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood22",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation5",
+  "Mirai__Mirai-greeth_flood13",
+  "DOS__DOS_UDP_FLOOD__DoS-UDP_Flood8",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation10",
+  "Spoofing__ARP_Spoofing__MITM-ArpSpoofing",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood16",
+  "DOS__DOS_UDP_FLOOD__DoS-UDP_Flood13",
+  "Recon__VulnerabilityScan",
+  "DDOS__DDOS_ACK_Fragmentation__DDoS-ACK_Fragmentation3",
+  "DOS__DOS_HTTP_FLOOD__DoS-HTTP_Flood",
+  "Mirai__Mirai-greeth_flood21",
+  "DOS__DOS_UDP_FLOOD__DoS-UDP_Flood16",
+  "DDOS__DDOS_ACK_Fragmentation__DDoS-ACK_Fragmentation2",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood15",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood6",
+  "DOS__DOS_UDP_FLOOD__DoS-UDP_Flood",
+  "DOS__DOS_UDP_FLOOD__DoS-UDP_Flood5",
+  "DDOS__DDOS_ICMP_FLOOD__DDoS-ICMP_Flood8",
+  "DOS__DOS_UDP_FLOOD__DoS-UDP_Flood14",
+  "Web-Based__XSS__XSS",
+  "Mirai__Mirai-greeth_flood22",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation",
+  "DDOS__DDOS_ACK_Fragmentation__DDoS-ACK_Fragmentation12",
+  "Mirai__Mirai-greeth_flood19",
+  "Benign__BenignTraffic1",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation15",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation6",
+  "DOS__DOS_HTTP_FLOOD__DoS-HTTP_Flood1",
+  "DDOS__DDOS_ICMP_Fragmentation__DDoS-ICMP_Fragmentation16",
+  "DOS__DOS_SYN_FLOOD__DoS-SYN_Flood1"
+ ],
+ "res": {
+  "RAND_NAT": {
+   "1-NN": 73.35269120268362,
+   "LightGBM": 78.97420969733543,
+   "LogReg": 51.13790316491431
+  },
+  "RAND_DED": {
+   "1-NN": 73.322161440632,
+   "LightGBM": 78.98951402082216,
+   "LogReg": 51.137117506590926
+  },
+  "SRC_NAT": {
+   "1-NN": 55.145129631593804,
+   "LightGBM": 60.69461409954967,
+   "LogReg": 42.86134037866785
+  },
+  "SRC_DED": {
+   "1-NN": 55.18900203228395,
+   "LightGBM": 60.609000177495254,
+   "LogReg": 43.15206864290266
+  }
+ },
+ "rand_twin_pct": 1.6666666666666667,
+ "rand_n_train": 57871,
+ "src_twin_pct": 0.8166666666666665,
+ "src_n_train": 57924
+}

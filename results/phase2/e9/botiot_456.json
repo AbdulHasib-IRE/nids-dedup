@@ -1,0 +1,56 @@
+{
+ "seed": 456,
+ "n_classes_kept": 4,
+ "n_classes_all": 5,
+ "test_sources": [
+  "data_73",
+  "data_30",
+  "data_52",
+  "data_44",
+  "data_71",
+  "data_15",
+  "data_64",
+  "data_5",
+  "data_1",
+  "data_28",
+  "data_34",
+  "data_67",
+  "data_13",
+  "data_63",
+  "data_66",
+  "data_51",
+  "data_7",
+  "data_70",
+  "data_72",
+  "data_29",
+  "data_62",
+  "data_40",
+  "data_19"
+ ],
+ "res": {
+  "RAND_NAT": {
+   "1-NN": 95.22589707331328,
+   "LightGBM": 97.62818183754445,
+   "LogReg": 78.84072483553611
+  },
+  "RAND_DED": {
+   "1-NN": 94.83943576536726,
+   "LightGBM": 95.68050685163773,
+   "LogReg": 78.03024680675547
+  },
+  "SRC_NAT": {
+   "1-NN": 85.1587341349641,
+   "LightGBM": 89.80525382633826,
+   "LogReg": 80.7359170670475
+  },
+  "SRC_DED": {
+   "1-NN": 82.57735274638115,
+   "LightGBM": 86.0390507415872,
+   "LogReg": 78.25070937517542
+  }
+ },
+ "rand_twin_pct": 17.424999999999997,
+ "rand_n_train": 36057,
+ "src_twin_pct": 15.35,
+ "src_n_train": 36465
+}
