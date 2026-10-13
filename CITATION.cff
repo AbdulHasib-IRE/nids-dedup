@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software or these results, please cite them."
+title: "nidsdedup: exact-duplicate audit and duplicate-aware splits for network intrusion detection benchmarks"
+version: "0.1.0"
+license: MIT
+authors:
+  - family-names: Hasib
+    given-names: Abdul
+    orcid: "https://orcid.org/0009-0000-6630-4240"
+  - family-names: Das
+    given-names: Saurav Chandra
+    orcid: "https://orcid.org/0009-0007-5191-6771"
+  - family-names: Ashiqussalehin
+    given-names: Md.
+    orcid: "https://orcid.org/0009-0004-7528-5802"

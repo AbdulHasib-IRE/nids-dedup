@@ -1,0 +1,227 @@
+{
+ "checks": [
+  [
+   "A cicids2017 CLI policy",
+   true
+  ],
+  [
+   "A cicids2017 CLI ports",
+   true
+  ],
+  [
+   "A cicids2017 features=77",
+   true
+  ],
+  [
+   "A row hashes identical",
+   true
+  ],
+  [
+   "C group_split leakage 0 (seed 42)",
+   true
+  ],
+  [
+   "C group_split leakage 0 (seed 123)",
+   true
+  ],
+  [
+   "C group_split leakage 0 (seed 456)",
+   true
+  ],
+  [
+   "B nslkdd policy",
+   true
+  ],
+  [
+   "B cicids2017 policy",
+   true
+  ],
+  [
+   "B cicids2017 ports",
+   true
+  ],
+  [
+   "B cic_diad policy",
+   true
+  ],
+  [
+   "B cic_diad ports",
+   true
+  ],
+  [
+   "B unswnb15 policy",
+   true
+  ],
+  [
+   "B unswnb15 ports",
+   true
+  ],
+  [
+   "B cicids2018 policy",
+   true
+  ],
+  [
+   "B cicids2018 ports",
+   true
+  ],
+  [
+   "B botiot policy",
+   true
+  ],
+  [
+   "B botiot ports",
+   true
+  ],
+  [
+   "B nbaiot policy",
+   true
+  ]
+ ],
+ "cli_seconds": 236.74115347862244,
+ "cli_cicids2017": {
+  "files": 8,
+  "features": 77,
+  "repeated_header_rows": 0,
+  "policy": {
+   "rows": 2830743,
+   "unique": 2233691,
+   "dup_rows": 688304,
+   "dup_pct": 24.315312269605542,
+   "redund_pct": 21.091706311735116,
+   "incons_rows": 82870,
+   "incons_pct": 2.927499953192501,
+   "max_group": 9329,
+   "irreducible_errors": 1165,
+   "ceiling_pct": 99.95884472733837,
+   "dup_groups": 91252,
+   "groups_cross_class": 272,
+   "groups_cross_source": 49136,
+   "groups_within_source": 42116,
+   "mean_group_size": 7.542892210581686
+  },
+  "policy_plus_ports": {
+   "rows": 2830743,
+   "unique": 2521664,
+   "dup_rows": 404558,
+   "dup_pct": 14.291583517119003,
+   "redund_pct": 10.918652805994752,
+   "incons_rows": 7020,
+   "incons_pct": 0.2479914283988338,
+   "max_group": 9329,
+   "irreducible_errors": 722,
+   "ceiling_pct": 99.97449432887407,
+   "dup_groups": 95479,
+   "groups_cross_class": 698,
+   "groups_cross_source": 34208,
+   "groups_within_source": 61271,
+   "mean_group_size": 4.237141151457388
+  },
+  "per_class": [
+   {
+    "y": "BENIGN",
+    "rows": 2273097,
+    "dup_pct": 20.43617144362955,
+    "distinct": 1897458,
+    "distinct_pct": 83.47457235656903
+   },
+   {
+    "y": "DoS Hulk",
+    "rows": 231073,
+    "dup_pct": 25.79055103798367,
+    "distinct": 172849,
+    "distinct_pct": 74.80276795644666
+   },
+   {
+    "y": "PortScan",
+    "rows": 158930,
+    "dup_pct": 98.99200906059271,
+    "distinct": 1958,
+    "distinct_pct": 1.2319889259422387
+   },
+   {
+    "y": "DDoS",
+    "rows": 128027,
+    "dup_pct": 0.017183875276308904,
+    "distinct": 128016,
+    "distinct_pct": 99.99140806236184
+   },
+   {
+    "y": "DoS GoldenEye",
+    "rows": 10293,
+    "dup_pct": 0.1360147673175945,
+    "distinct": 10286,
+    "distinct_pct": 99.9319926163412
+   },
+   {
+    "y": "FTP-Patator",
+    "rows": 7938,
+    "dup_pct": 30.952380952380953,
+    "distinct": 5933,
+    "distinct_pct": 74.74174855127235
+   },
+   {
+    "y": "SSH-Patator",
+    "rows": 5897,
+    "dup_pct": 47.92267254536205,
+    "distinct": 3219,
+    "distinct_pct": 54.58707817534339
+   },
+   {
+    "y": "DoS slowloris",
+    "rows": 5796,
+    "dup_pct": 8.781918564527261,
+    "distinct": 5385,
+    "distinct_pct": 92.90890269151139
+   },
+   {
+    "y": "DoS Slowhttptest",
+    "rows": 5499,
+    "dup_pct": 5.873795235497363,
+    "distinct": 5228,
+    "distinct_pct": 95.071831242044
+   },
+   {
+    "y": "Bot",
+    "rows": 1966,
+    "dup_pct": 32.24821973550356,
+    "distinct": 1441,
+    "distinct_pct": 73.29603255340793
+   },
+   {
+    "y": "Web Attack \u00ef\u00bf\u00bd Brute Force",
+    "rows": 1507,
+    "dup_pct": 4.11413404114134,
+    "distinct": 1470,
+    "distinct_pct": 97.54479097544791
+   },
+   {
+    "y": "Web Attack \u00ef\u00bf\u00bd XSS",
+    "rows": 652,
+    "dup_pct": 0.0,
+    "distinct": 652,
+    "distinct_pct": 100.0
+   },
+   {
+    "y": "Infiltration",
+    "rows": 36,
+    "dup_pct": 0.0,
+    "distinct": 36,
+    "distinct_pct": 100.0
+   },
+   {
+    "y": "Web Attack \u00ef\u00bf\u00bd Sql Injection",
+    "rows": 21,
+    "dup_pct": 0.0,
+    "distinct": 21,
+    "distinct_pct": 100.0
+   },
+   {
+    "y": "Heartbleed",
+    "rows": 11,
+    "dup_pct": 0.0,
+    "distinct": 11,
+    "distinct_pct": 100.0
+   }
+  ]
+ }
+}

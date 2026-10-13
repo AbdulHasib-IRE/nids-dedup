@@ -1,0 +1,8 @@
+dataset,rows_raw,nan_rows,rows_used,classes_used,features,dropped_classes
+NSL-KDD,148517,0,146773,15,122,"{""buffer_overflow"": 50, ""ftp_write"": 11, ""httptunnel"": 133, ""imap"": 12, ""land"": 25, ""loadmodule"": 11, ""mailbomb"": 293, ""multihop"": 25, ""named"": 17, ""perl"": 5, ""phf"": 6, ""pod"": 242, ""ps"": 15, ""rootkit"": 23, ""saint"": 319, ""sendmail"": 14, ""snmpgetattack"": 178, ""snmpguess"": 331, ""spy"": 2, ""sqlattack"": 2, ""udpstorm"": 2, ""worm"": 2, ""xlock"": 9, ""xsnoop"": 4, ""xterm"": 13}"
+CICIDS2017,2830743,2867,2827808,12,77,"{""Infiltration"": 36, ""Web Attack - Sql Injection"": 21, ""Heartbleed"": 11}"
+UNSW-NB15,2540047,0,2539873,9,197,"{""Worms"": 174}"
+CIC IoT-DIAD 2024,19519162,88551,19430611,8,77,{}
+N-BaIoT,7062606,0,7062606,11,115,{}
+CSE-CIC-IDS2018,16232943,95760,16136866,13,77,"{""Brute Force -XSS"": 230, ""SQL Injection"": 87}"
+Bot-IoT,73370443,0,73370443,5,49,{}
