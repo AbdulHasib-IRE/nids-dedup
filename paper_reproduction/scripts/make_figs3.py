@@ -52,6 +52,7 @@ SP = RX - 4                                      # spine from the test set to th
 ax.plot([RX, SP, SP], [70.75, 70.75, 21.75], color=INK2, lw=1.4, solid_capstyle='butt')
 for yc in (56.75, 39.25, 21.75): arrow(SP, yc, RX, yc)
 box(2, 0.5, 96, 11, '6 learners: 1-NN, RF, LightGBM, MLP-ES, MLP-noES, LogReg\n10 seeds (5 for the controls); paired t and TOST (\u00b10.5, 1, 2 pp),\nHolm correction, effect sizes, Friedman/Nemenyi', fs=9.6)
+arrow(RX + RW / 2, 15, RX + RW / 2, 11.5)                       # training experiments -> shared learners and statistics
 fig.canvas.draw(); r = fig.canvas.get_renderer(); bad = []
 for p, ts in BOXES:
     bb = p.get_window_extent(r)
