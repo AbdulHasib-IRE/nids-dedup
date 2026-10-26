@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software or these results, please cite them."
 title: "nidsdedup: exact-duplicate audit and duplicate-aware splits for network intrusion detection benchmarks"
-version: "0.1.0"
+version: "0.1.1"
 license: MIT
 authors:
   - family-names: Hasib
